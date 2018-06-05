@@ -15,9 +15,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean rendererSet = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        glSurfaceView = new GLSurfaceView(this);
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            glSurfaceView = new GLSurfaceView(this);
 
         // Check if the system supports OpenGL ES 2.0.
         final ActivityManager activityManager =
@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         final ConfigurationInfo configurationInfo =
                 activityManager.getDeviceConfigurationInfo();
         /*
-
         final boolean supportsEs2 = configurationInfo.reqGlEsVersion >= 0x20000;
          */
         // Even though the latest emulator supports OpenGL ES 2.0,

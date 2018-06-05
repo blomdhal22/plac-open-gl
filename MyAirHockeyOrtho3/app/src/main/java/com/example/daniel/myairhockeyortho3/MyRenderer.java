@@ -173,10 +173,10 @@ public class MyRenderer implements Renderer {
     public void onSurfaceChanged(GL10 glUnused, int width, int height) {
         // Set the OpenGL viewport to fill the entire surface.
         glViewport(0, 0, width, height);
-        
-        final float aspectRatio = width > height ? 
-            (float) width / (float) height : 
-            (float) height / (float) width;
+
+        final float aspectRatio = width > height ?
+                (float) width / (float) height :
+                (float) height / (float) width;
 
         if (width > height) {
             // Landscape
@@ -184,7 +184,7 @@ public class MyRenderer implements Renderer {
         } else {
             // Portrait or square
             orthoM(projectionMatrix, 0, -1f, 1f, -aspectRatio, aspectRatio, -1f, 1f);
-        }   
+        }
     }
 
     /**
