@@ -116,11 +116,11 @@ public class MyRenderer implements Renderer {
                 // Shape 1
                 // Triangle Fan
                 0f + offsetx1,    0f + offsety1,   1f,   0f,   0f,
-                -0.05f + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
-                0.05f + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
-                0.05f + offsetx1,  0.05f + offsety1, 1f,   0f,   0f,
-                -0.05f + offsetx1,  0.05f + offsety1, 1f,   0f,   0f,
-                -0.05f + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
+                (-0.05f/2f) + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
+                (0.05f/2f) + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
+                (0.05f/2f) + offsetx1,  0.05f + offsety1, 1f,   0f,   0f,
+                (-0.05f/2f) + offsetx1,  0.05f + offsety1, 1f,   0f,   0f,
+                (-0.05f/2f) + offsetx1, -0.05f + offsety1, 1f,   0f,   0f,
 
                 // Triangle Fan long
                 0f + offsetx2,    0f + offsety2,   1f,   0f,   0f,

@@ -103,16 +103,16 @@ public class MyRenderer implements Renderer {
             -0.7f,  0.7f, 1f, 0f, 0f,
 
             // Line
-            -0.3f, -0.7f, 1f, 0f, 0f,
-            -0.3f,  0.7f, 1f, 0f, 0f,
+            -0.3f, -0.6f, 1f, 0f, 0f,
+            -0.3f,  0.6f, 1f, 0f, 0f,
 
             // Line
             0.0f, -0.7f, 1f, 0f, 0f,
             0.0f,  0.7f, 1f, 0f, 0f,
 
             // Line
-            0.3f, -0.7f, 1f, 0f, 0f,
-            0.3f,  0.7f, 1f, 0f, 0f,
+            0.3f, -0.6f, 1f, 0f, 0f,
+            0.3f,  0.6f, 1f, 0f, 0f,
 
             // Line
             0.7f, -0.7f, 1f, 0f, 0f,
